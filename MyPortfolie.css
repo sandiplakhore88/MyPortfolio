@@ -457,6 +457,20 @@
 }
 
 
+
+.teams .carousel .card .box .text i{
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+}
+.teams .carousel .card .box .text i:hover{
+  color: blue;
+  transform: scale(1.05);
+}
+
+
+
+
 /*contact styling*/
 
 .contact .title::after{
