@@ -56,4 +56,14 @@ $(document).ready(function(){
         }
       }
     });
+    
+    /* Read button */
+ 
+    let readMoreBtn = document.getElementById('read-more-btn');
+    readMoreBtn.addEventListener('click',function(){
+      let showHide = document.getElementById('invisible-text-id');
+      let str = readMoreBtn.innerHTML;
+      showHide.classList.toggle('invisible-text');
+      readMoreBtn.innerHTML = (str == "Read More") ? "Read Less" : "Read More";
+    });
 });
