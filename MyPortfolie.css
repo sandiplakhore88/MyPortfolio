@@ -390,7 +390,11 @@
 .skills-content .right .mysql::before{
   width: 85%;
 }
+/*my styling*/
 
+.invisible-text{
+  display: none;
+}
 
 /*teams styling*/
 
